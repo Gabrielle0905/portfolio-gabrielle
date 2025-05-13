@@ -37,3 +37,23 @@ h1 {
     text-align: center;
     color: #7D8F40;
 }
+
+img {
+    width: 100px;
+}
+
+.email {
+    padding: 10px;
+    height: ;
+}
+
+.redes {
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}

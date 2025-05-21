@@ -38,21 +38,24 @@ h1 {
     color: #7D8F40;
 }
 
-.links1 {
+.links {
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     gap: 30px;
     padding: 15px; 
     justify-content: center;
 }
 
-.links2 {
+.card{
     display: flex;
     flex-direction: row;
     gap: 30px;
     padding: 15px;
     justify-content: center;
-    
+    border: black solid 1px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: ;
 }
 
 img {
@@ -66,8 +69,4 @@ p {
     text-align: center;
 }
 
-.card {
-    border: black solid 1px;
-    padding: 15px;
-    border-radius: 10%;
-}
+

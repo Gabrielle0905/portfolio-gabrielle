@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Josefin Slab;
+    background-color: #fbfbfd;
+}
+
+header {
+    background-color: #8b60af;
+    padding: 2rem;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 680;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    padding-top:3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 36px;
+    color: #5b3282;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: center;
+    color: #5b3282;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+}
+
+.texto {
+    font-size:25px;
+    font-weight: 600;
+    padding: 1rem;
+    max-width: 800px;
+    text-align: justify;
+}
+
+p {
+    padding: 0.5rem;
+    max-width: 80%;
+    color: #401a63;
+
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 100%;
+}
+
+hr {
+    width: 80%;
+    border: #B08CD2 solid;
+    margin: 0.8rem;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #B3B2EC;
+    color: #401a63;
+    border: #5b3282 solid 2px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0.8rem;
+    width: 1000px;
+    font-size: 20px;
+    gap: 1rem;
+    text-align: justify;
+    font-weight: 1000;
+    text-transform:initial;
+
+}
+
+img {
+    width: 400px;
+}

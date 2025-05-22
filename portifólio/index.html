@@ -3,45 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
-    <link rel="stylesheet" href="/sobre.css">
+    <title>Porfólio</title>
+    <link rel="stylesheet" href="/portifólio/style.css">
 </head>
 <body>
     <header>
         <div>
             <nav>
-                <a href="#">Sobre |</a>
-                <a href="portfolio.html">Portfólio |</a>
-                <a href="curriculo.html">Currículo |</a>
-                <a href="contato.html">Contato</a>
+                <a href="#sobre">Sobre |</a>
+                <a href="#habilidades">Habilidades |</a>
+                <a href="#portfolio">Portfólio |</a>
+                <a href="#certificados">Certificados |</a>
+                <a href="#curriculo">Currículo |</a>
+                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
     <main>
-        <h1>BEM-VINDO!</h1>
-        <div class="sobre">
-            <div class="texto">
-                <p>Sou a Gabrielle Novaes, tenho 19 anos, nasci e cresci em São José dos Campos e sou estudante de Análise e Desenvolvimento de Sistemas (ADS) na Faculdade de Tecnologia (FATEC).</p>
-                <p>Estudei no Colégio Embraer durante o meu ensino médio e tive a oportunidade de participar como diretora no projeto voluntário educacional Voe Alto.</p>
-                <p>Fora do código sou apaixonada pelos trabalhos manuais como artesanatos, crochê e bordados feitos à mão.</p>
-            </div>
-            <div class="foto">
-                <img src="/image1.png" alt="Meu avatar">
-            </div>
+        <h2>BEM-VINDO!</h2>
+        <div id="sobre">
+            <br>
+            <h1>Sobre mim</h1>
+                <div class="infos">
+                    <div class="texto">
+                    <p>Sou a Gabrielle Novaes, tenho 19 anos, nasci e cresci em São José dos Campos e sou estudante de Análise e Desenvolvimento de Sistemas (ADS) na Faculdade de Tecnologia (FATEC).</p>
+                    <p>Estudei no Colégio Embraer durante o meu ensino médio e tive a oportunidade de participar como diretora no projeto voluntário educacional Voe Alto.</p>
+                    <p>Fora do código sou apaixonada pelos trabalhos manuais como artesanatos, crochê e bordados feitos à mão.</p>
+                    </div>
+                    <img src="/portifólio/image1.png" alt="Meu avatar" class="avatar">
+                </div>
         </div>
         <div class="linha">
             <hr>
         </div>
-        <h2>Habilidades</h2>
-        <div class="habilidades">
-            <div class="1">
-                <h4>UI Design</h4>
-                <h4>UX Design</h4>
+    
+        <div id="portfolio">
+            <br>
+            <h1>Portfólio</h1>
+            <div class="links">
+                <a class="card" href="https://drive.google.com/file/d/1zS0aCLUP3NiYvetV92IfDQP3B0cMCFBl/view?usp=drive_link">
+                        <img src="Voe Alto.png" alt="">
+                        <p>Criação da identidade visual do projeto educacional Voe Alto, um projeto educacional desenvolvido por alunos da Escola Embraer com foco em ajudar outros estudantes a ingressarem na instituição. A marca foi pensada para transmitir leveza, inspiração e acessibilidade.
+                        </p>
+                        <p>O logotipo traz um símbolo que remete ao voo e à conquista, com uma estrela representando o objetivo alcançado. A paleta em tons de azul e roxo equilibra criatividade e seriedade, enquanto a tipografia Quicksand reforça um visual moderno e amigável. O resultado é uma identidade jovem, clara e alinhada ao propósito do projeto.</p>
+
+
+                </a>
+                <a class="card"  href="https://voealtoeducacional.wixsite.com/juarezwanderley">
+                        <img src="site_voe.png" alt="">
+                        <p>Este site foi criado com o objetivo de reunir as principais informações sobre o Voe Alto, um projeto educacional idealizado por alunos do ensino médio da Escola Embraer. A iniciativa busca apoiar estudantes na preparação para o processo seletivo da escola, oferecendo conteúdos e orientações que facilitem sua trajetória. A plataforma foi desenvolvida para apresentar o propósito do projeto de forma clara e acessível.</p>
+                </a>
+                    <a class="card" href="https://drive.google.com/file/d/13YCuPf5Jx0XC8mLEqIuEqUOHcnMuxUW4/view?usp=drive_link">
+                        <img src="Ilumina.png" alt="">
+                        <p>A identidade visual da Ilumina – Serviços Elétricos foi criada com o objetivo de representar uma marca moderna, confiável e conectada à ideia de energia e inovação. O símbolo une o formato de uma lâmpada com um plugue, sintetizando visualmente o serviço oferecido de forma clara e direta.
+                        </p>
+                        <p>
+                        As cores em tons vibrantes de amarelo transmitem energia e destaque, enquanto o cinza escuro equilibra o visual com seriedade e profissionalismo. A escolha das tipografias Josefin Sans e Comfortaa reforça a clareza e a acessibilidade da marca, mantendo um visual leve e impactante.
+                        </p>
+                        <p>O resultado é uma identidade versátil, com presença forte e aplicação eficiente tanto em meios digitais quanto físicos.
+                        </p>
+                    </a>
+                    <a class="card" href="https://github.com/Gabrielle0905/SIRAAS">
+                        <img src="siraas.png" alt="">
+                        <p>O SIRAAS - Sistema de Registro de Atestados e Avaliação Scrum é resultado do trabalho solicitado pela Faculdade de Tecnologia de São José dos Campos - Professor Jansen Vidal, cujo tema é Sistema web de registro de alunos com atestados médicos e avaliação de equipes ágeis.
+                        </p>
+                        <p>O desafio proposto aos alunos foi a criação de um sistema web que permita o cadastro, consulta e gestão de atestados médicos de alunos, garantindo um registro eficiente e seguro dessas informações, evitando perda de dados e tornando o processo mais ágil. O sistema deve permitir também a avaliação de equipes ágeis em projetos de desenvolvimento de software, avaliando os diferentes papéis dentro da equipe Scrum, como o Scrum Master, Product Owner e Time de Desenvolvimento através do método PACER (Produtividade, Autonomia, Colaboração e Entrega de Resultados).
+                        </p>
+                    </a>
             </div>
-            <div class="2">
-                <h4>Identidade Visual</h4>
-                <h4>HTML/CSS</h4>
+            <div id="certificados">
+                <br>
+                <h1>Certificados</h1>
             </div>
+        </div>
+        <div id="curriculo">
+            <br>
+            <h1>Currículo</h1>
+        </div>
+        <div id="contato">
+            <br>
+            <h1>Contatos</h1>
+            <h2>Entre em contato</h2>
+            <section>
+                <fieldset class="email">
+                    <img src="mail.png" alt="">
+                    <h3>E-mail</h3>
+                    <a href="gabnovgoncalves@gmail.com">gabnovgoncalves@gmail.com</a>
+                </fieldset>
+                <fieldset class="redes">
+                    <img src="instagram.png" alt="">
+                    <h3>Instagram</h3>
+                </fieldset>
+            </section>
         </div>
     </main>
 </body>
